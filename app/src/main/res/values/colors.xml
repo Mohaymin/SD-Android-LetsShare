@@ -8,5 +8,7 @@
     <color name="white">#ffffff</color>
     <color name="gradientStart">#19AA8B</color>
     <color name="gradientEnd">#23A7D8</color>
+    <color name="forbutton">#609afd</color>
+
 
 </resources>

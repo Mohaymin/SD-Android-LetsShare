@@ -2,9 +2,12 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/architects_daughter</item>
+        <item>@font/arima_madurai_medium</item>
         <item>@font/autour_one</item>
         <item>@font/baloo_tamma</item>
         <item>@font/great_vibes</item>
+        <item>@font/montez</item>
         <item>@font/pacifico</item>
+        <item>@font/hominfundemo</item>
     </array>
 </resources>

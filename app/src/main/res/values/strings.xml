@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FileTransfer</string>
+    <string name="firstline">Hey Hooman!</string>
+    <string name="secondline">Start sharing with your friends right meow!!!</string>
 </resources>
