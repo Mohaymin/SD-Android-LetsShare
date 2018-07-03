@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fade">
+
+    <ImageView
+        android:id="@+id/catanim"
+        android:layout_width="100dp"
+        android:layout_height="92dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/catanim"
+        android:layout_marginBottom="30dp"
+        />
+<RelativeLayout
+    android:id="@+id/newDeviceRL"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toStartOf="@+id/searchorfoundTV"
+    >
+
+    <ImageButton
+        android:id="@+id/newDeviceIB"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/newphone_icon"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/newDeviceTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chumki!!!"
+        android:textColor="@color/white"
+        android:layout_below="@+id/newDeviceIB"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/searchorfoundTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="searching for devices..."
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"/>
+
+    <pl.bclogic.pulsator4droid.library.PulsatorLayout
+        android:id="@+id/pulsator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:pulse_color="@color/blue"
+        app:pulse_count="4"
+        app:pulse_duration="7000">
+    </pl.bclogic.pulsator4droid.library.PulsatorLayout>
+
+</RelativeLayout>
