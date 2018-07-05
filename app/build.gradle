@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.marsprojects.filetransfer"
-        minSdkVersion 23
+        minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -27,5 +27,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'pl.bclogic:pulsator4droid:1.0.3'
     implementation 'de.hdodenhof:circleimageview:2.2.0'
-
+    implementation 'me.itangqi.waveloadingview:library:0.3.5'
 }
